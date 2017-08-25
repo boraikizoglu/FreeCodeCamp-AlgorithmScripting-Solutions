@@ -8,9 +8,9 @@ function mutation(arr) {
     for(var j=0; j<arr[0].length;j++) {
         if( arr[1].charAt(i).toLowerCase() === arr[0].charAt(j).toLowerCase() ){
               count++; 
-              /* count will be zero if i. char of second element isn't same with any char of first element in the array.
+              /* Count will be zero If i. char of second element isn't same with any char of first element in the array.
               
-              Count will be pushed to checkArray, then, if checkArray has a 0, function will return false.  
+              Count will be pushed to checkArray, then, If checkArray has a 0, function will return false.  
               */
         }
     }
