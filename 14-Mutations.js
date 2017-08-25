@@ -10,7 +10,7 @@ function mutation(arr) {
               count++; 
               /* count will be zero if i. char of second element isn't same with any char of first element in the array.
               
-              It will pushed the count to checkArray, then, if checkArray has a 0, function will return false.  
+              Count will be pushed to checkArray, then, if checkArray has a 0, function will return false.  
               */
         }
     }
